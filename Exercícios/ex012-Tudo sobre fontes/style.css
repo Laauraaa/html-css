@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Mono+One&display=swap');
+@font-face {
+    font-family: 'Muthiara';
+    src: url('Fonte/Muthiara\ demo\ version.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: linear-gradient(-45deg, #AD9B7C,#36281F);
+}
+main {
+    background-color: #746754;
+    margin: auto;
+    width: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #4a4236b8;
+}
+h1{
+    color: #37190A;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
+}
+h2{
+    color: #4F271B;
+    font-weight: bold;
+}
+p, ul, li{
+    color: #36281F;
+}
+h3{
+    font-family: 'Muthiara';
+    color: #4F271B;
+}

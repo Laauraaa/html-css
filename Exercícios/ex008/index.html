@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários aparelhos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/M.jpg" type="image/jpg">
+        <img src="imagens/G.jpg" alt="imagem rosa com a letra g escrita">
+    </picture>
+    <h1>Reproduzindo aúdio em HTML5</h1>
+    <P>Vamos aprender a inserir um áudio no site!</P>
+    <audio src="midia/Is This Really Happening_ - TrackTribe.mp3" controls autoplay></audio>
+    <h1>Inserindo vídeos</h1>
+    <p>Um vídeo inserido no próprio servidor do site</p>
+    <video src="midia/video.mp4" width="500" controls></video>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</html>

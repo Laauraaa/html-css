@@ -1,0 +1,65 @@
+@import "UTF=8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@700&family=Rubik+Mono+One&display=swap');
+@font-face {
+    font-family: amoitar;
+    src: url(amoitar/Amoitar\ Regular.otf);
+}
+body {
+    background-color: #D3CBB2;
+}
+
+nav {
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 0px;
+   margin-top: 10px;
+   
+}
+h1 {
+    color: #47443C;
+    font-family: amoitar;
+    font-size: 30px;
+}
+.cabecalho-subtitulo {
+    color: #6D695C;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-bottom: 80px;
+    margin-inline-start: 150px;
+    padding: 0px;
+}
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    text-align: justify;
+}
+.conteudo-titulo-principal {
+    font-size: 50px;
+    color: #6D695C;
+    margin-bottom: -20px
+}
+.conteudo-titulo-secundario {
+    color: #878272;
+}
+footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    color: #878272;
+}
+footer > a {
+    text-decoration: none;
+    color: #878272;
+}
+a:hover {
+    color:#47443C
+}

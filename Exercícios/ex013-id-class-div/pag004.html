@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        a {
+            color: palevioletred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: pink; 
+        }
+        a:hover {
+            color:palevioletred;
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgb(200, 9, 73);
+        }
+        a::after {
+            content: '[Link]';
+            text-decoration: none;
+            color: rgb(253, 214, 221);
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@TaylorSwift">Canal do youtube</a></li>
+        <li><a href="https://www.instagram.com/taylorswift/">Instagram</a></li>
+        <li><a href="https://www.taylorswift.com/">Site</a></li>
+    </ul>
+</body>
+</html>
